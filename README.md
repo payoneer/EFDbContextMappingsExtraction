@@ -13,8 +13,8 @@ Options:
   --json                                 Show JSON output
   -p|--project <PROJECT>                 The project to use. Defaults to the current working directory.
   -s|--startup-project <PROJECT>         The startup project to use. Defaults to the current working directory.
-  --context-assembly <assembly>          path to the assemmly containing the dbcontext
-  --startup-assembly <assembly>          path to the assemmly containing the startup
+  --context-assembly <assembly>          path to the assembly containing the dbcontext
+  --startup-assembly <assembly>          path to the assembly containing the startup
   --framework <FRAMEWORK>                .NETCoreApp | .NETFramework
   --ef-version <EFVersion>               EF6 | EFCore
   --configuration <CONFIGURATION>

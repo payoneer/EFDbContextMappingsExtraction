@@ -19,8 +19,8 @@ using Microsoft.DotNet.Cli.CommandLine;namespace DbContextMappingDump
         {
             Project = command.Option("-p|--project <PROJECT>", "The project to use. Defaults to the current working directory.");
             StartupProject = command.Option("-s|--startup-project <PROJECT>", "The startup project to use. Defaults to the current working directory.");
-            ContextAssembly = command.Option("--context-assembly <assembly>", "path to the assemmly containing the dbcontext");
-            StartupAssembly = command.Option("--startup-assembly <assembly>", "path to the assemmly containing the startup");
+            ContextAssembly = command.Option("--context-assembly <assembly>", "path to the assembly containing the dbcontext");
+            StartupAssembly = command.Option("--startup-assembly <assembly>", "path to the assembly containing the startup");
             Framework = command.Option("--framework <FRAMEWORK>", ".NETCoreApp | .NETFramework");
             EFVersion = command.Option("--ef-version <EFVersion>", "EF6 | EFCore");
             Configuration = command.Option("--configuration <CONFIGURATION>", "");
