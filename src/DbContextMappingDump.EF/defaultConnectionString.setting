@@ -1,0 +1,1 @@
+Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={{TOOL_LOCATION}}\DefatulDatabase.mdf;Integrated Security=True;App=dummy

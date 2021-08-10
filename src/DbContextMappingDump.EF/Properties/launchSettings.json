@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "DbContextMappingDump.EF": {
+      "commandName": "Project"
+    }
+  }
+}
